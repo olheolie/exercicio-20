@@ -1,3 +1,4 @@
+
 function calcularMDC(a, b) {
     while (b !== 0) {
         let resto = a % b;

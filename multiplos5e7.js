@@ -6,7 +6,7 @@ function soma(limite){
     for(i=0;i <= limite;i++){
         if(i % 5 === 0 && i % 7 !== 0)
             multiploDe5 += i;
-        if(i % 7 === 0)
+        if(i % 7 === 0 )
             multiploDe7 += i;
 }
 console.log(multiploDe5 + multiploDe7);
